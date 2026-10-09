@@ -1,0 +1,18 @@
+---
+title: "Assignment 2A- SQL & R (Movie Ratings)"
+author: "Ziaul Hoque"
+format: html
+editor: visual
+---
+
+**Approach**
+
+This assignment 2A - SQL & R related to movie ratings, here movie ratings are collected from five people for six selected movies. Every person will rate the movies based on have seen, scale from 1 to 5. If any participant has not seen a movie, rating will be treated as missing rather than assigning an arbitrary value. So I will create a database name *"MovieRatings"* using GUI *pgAdmin 4* from *PostgreSQL* and will store all collected data into relevant three tables:
+
+- ~users~
+- ~movies~
+- ~ratings~
+
+After creating and populating the database, I will use SQL queries to join the tables and retrieve the movie rating data. And then connect to *PostgreSQL database to R* and load the query results into a dataframe.
+
+For Data Analysis part, I will inspect and clean the data, address any missing ratings through ***R*** language and use `dplyr` pakcage to calculate simple summaries - such as the number of ratings and average rating for each movie.
